@@ -2,10 +2,12 @@
   "name": "setup-calculator",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://MalaviyaIsha.github.io/setup-calculator",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel --no-source-maps",
-    "build": "parcel build --no-source-maps"
+    "build": "parcel build --no-source-maps",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
